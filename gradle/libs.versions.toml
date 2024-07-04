@@ -1,0 +1,43 @@
+[versions]
+agp = "8.4.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+glide = "5.0.0-rc01"
+compiler = "5.0.0-rc01"
+circleimageview = "3.1.0"
+shimmerlayout = "2.1.0"
+swiperefreshlayout = "1.1.0"
+gson = "2.11.0"
+mockwebserver = "5.0.0-alpha.14"
+okhttp = "5.0.0-alpha.14"
+appcompatV7 = "28.0.0"
+loggingInterceptor = "5.0.0-alpha.14"
+supportAnnotations = "28.0.0"
+appcompatResources = "1.7.0"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version = "4.16.0" }
+compiler = { group = "com.github.bumptech.glide", name = "compiler", version = "4.16.0" }
+circleimageview = { group = "de.hdodenhof", name = "circleimageview", version.ref = "circleimageview" }
+shimmerlayout = { group = "io.supercharge", name = "shimmerlayout", version.ref = "shimmerlayout" }
+swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swiperefreshlayout" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+mockwebserver = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "mockwebserver" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+appcompat-v7 = { group = "com.android.support", name = "appcompat-v7", version.ref = "appcompatV7" }
+logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "loggingInterceptor" }
+support-annotations = { group = "com.android.support", name = "support-annotations", version.ref = "supportAnnotations" }
+appcompat-resources = { group = "androidx.appcompat", name = "appcompat-resources", version.ref = "appcompatResources" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+

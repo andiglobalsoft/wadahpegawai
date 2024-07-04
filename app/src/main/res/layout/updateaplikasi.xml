@@ -1,0 +1,85 @@
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="1dp"
+    android:background="#F8F8F8"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="28">
+
+                <ImageView
+                    android:id="@+id/foto"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/logo2" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="72"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/nama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:textColor="#000000"
+                    android:text="PERINGATAN"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/keterangan"
+                    android:text="Saat ini ada fitur-fitur terbaru dalam aplikasi, di update yah :)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:lines="5"
+                    android:maxLines="5"
+                    android:textColor="#757575"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:background="@drawable/buttoneffect"
+            android:text="UPDATE"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

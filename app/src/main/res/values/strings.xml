@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wadah Pegawai</string>
+    <string name="versi">1.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail_berita">DetailBerita</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>
