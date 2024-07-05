@@ -40,10 +40,10 @@
                 <TextView
                     android:id="@+id/judulkelas"
                     android:layout_width="0dp"
-                    android:layout_weight="1.6"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_weight="1.6"
                     android:text="Kelas CPNS"
                     android:textColor="@color/colorWhite"
                     android:textSize="20sp"
@@ -54,8 +54,8 @@
                     android:layout_height="match_parent"
                     android:layout_centerVertical="true"
                     android:layout_weight="0.2"
-                    android:tint="@color/colorWhite"
-                    android:src="@drawable/ic_bell" />
+                    android:src="@drawable/ic_bell"
+                    app:tint="@color/colorWhite" />
 
             </LinearLayout>
 
@@ -228,10 +228,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="5dp"
-                    android:text="Pertanyaan dan jawaban"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Pertanyaan dan jawaban"
                     android:textColor="@color/colorBlack"
                     android:textSize="18sp"
                     android:textStyle="bold" />
